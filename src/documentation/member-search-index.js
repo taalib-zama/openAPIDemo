@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.taalib.chatgptbot","c":"ChatgptBotApplication","l":"ChatgptBotApplication()","u":"%3Cinit%3E()"},{"p":"com.taalib.chatgptbot","c":"ChatgptBotApplication","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

@@ -1,0 +1,15 @@
+IN this applicatino we'll talk to chatgpt to make our answers. Chatgpt provides a public api, using which we can call its api
+
+let's look at api endpoint request and response structure and we'l implement it
+
+1. goto homepage of openapi
+2. api reference section
+3. authentication section - open api uses api keys for authentication.
+4 .we can pass this API key as a token while invoking any api
+5. before this lets look at response/response - goto playground section - ask a question
+    now to visualize how this request will goto chatgpt, what should be the endpoint/what should be the request format,
+    -> click on view code button in playground ->you will find the curl command -> copy this call ->
+    goto postman -> import -> raw text -> check body , it will contain the message we type in questions page (called promt)
+    -> in headers section well see as part of authorization header we are giving the bearer token, this is nothing but
+    openAPI token. -> to generate this token - acount - api keys -create new secret key- typr anything and get it
+    -> this token will act as a authorization header
